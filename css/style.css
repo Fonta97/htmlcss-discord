@@ -12,6 +12,7 @@ body {
 .containerheader {
     display: flex;
     justify-content: center;
+    text-align: center;
     padding: 1% 1% 1% 1%;
 }
 
@@ -24,6 +25,8 @@ img {
 }
 
 .linkheader {
+    justify-content: space-evenly;
+    text-align: center;
     padding: 1% 10% 1% 10%;
 }
 
@@ -53,8 +56,14 @@ a {
     color: black;
 }
 
+.button.black {
+    background-color: rgba(35, 39, 42, 255);
+    color: white;
+}
+
 .textwhite {
     color: white;
+    justify-content: center;
     text-align: center;
 }
 
@@ -62,6 +71,13 @@ a {
     font-weight: bold;
     font-size: 35px;
     line-height: 100px;
+}
+
+.buttoncontainerevenly {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
 }
 
 /* main setting */
